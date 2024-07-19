@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Animation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+      
+    </style>
+</head>
+<body class=" m-auto mt-[400px]  w-[500px]" >
+    <div class="flex -space-x-2 w-fit m-auto " >
+        <div class="bg-green-400 w-6 h-6 flex justify-center rounded-full " >
+            <div class="h-2 w-2 bg-white m-auto rounded-full" ></div>
+        </div>
+        <div class="bg-green-400 w-10 h-6 flex justify-center rounded-r-full hidden" id="c2" >
+            <div class="h-2 w-2 bg-white m-auto rounded-full" ></div>
+        </div>
+        <div class="bg-green-400 w-8 h-6 flex justify-center rounded-r-full hidden " id="c3" >
+            <div class="h-2 w-2 bg-white m-auto rounded-full" ></div>
+        </div>
+    </div>
+    <div class="w-fit m-auto flex " >   
+       <button class="font-semibold p-2 mr-3  mt-5 hidden " id="back" >Back</button>
+       <button class="font-semibold p-2 mr-3  mt-5 hidden " id="back2" >Back</button>
+
+       <button class="mt-7 bg-blue-600 text-white py-4 px-28 mr-2 rounded-full font-semibold w-fit border-none " id="continue1" >Continue</button>
+       <button class="mt-7 bg-blue-600 text-white py-4 px-16 mr-2 rounded-full font-semibold w-fit border-none hidden " id="continue2" >Continue</button>
+       <button class="mt-7 bg-blue-600 text-white py-4 px-[75px] mr-2 rounded-full font-semibold w-fit border-none hidden  " id="finish" > Finish</button>
+       
+   
+   
+  
+    <script src="index.js"></script>
+</body>
+</html>
+
